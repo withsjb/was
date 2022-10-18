@@ -1,0 +1,196 @@
+.h1 {
+  font-weight: bold;
+}
+.title {
+  text-align: center;
+  font-size: 150%;
+  margin-bottom: 30px;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  background-image: url(../public/images/background.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  overflow-x: scroll;
+  display: table;
+}
+
+.lang {
+  width: 90%;
+  height: 400px;
+}
+
+.fontt {
+  font-size: 150%;
+  font-family: sans-serif;
+}
+
+.aboutme {
+  width: 90%;
+  height: 350px;
+}
+
+.importanta {
+  width: 33%;
+  height: 100%;
+
+  float: left;
+}
+
+.importantb {
+  width: 33%;
+  height: 100%;
+  float: left;
+}
+
+.importantc {
+  width: 33%;
+  height: 100%;
+  float: left;
+}
+
+.imporwri {
+  margin-top: 30px;
+}
+
+.project {
+  width: 90%;
+  height: 1500px;
+}
+
+.projecta {
+  height: 35%;
+  margin-left: 15%;
+  width: 30%;
+  text-align: center;
+  margin-bottom: -70px;
+}
+
+.projectawri {
+  text-align: center;
+}
+
+.projectb {
+  margin-top: 20px;
+  width: 50%;
+  height: 30%;
+  margin-left: 15%;
+}
+
+.important {
+  width: 90%;
+  height: 300px;
+}
+
+.imgbox {
+  margin-top: 2%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  float: left;
+}
+
+.imgboxs {
+  margin-top: 5%;
+  margin-left: 12%;
+  width: 200px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.langimg {
+  position: absolute;
+
+  object-fit: cover;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.imgboxsa {
+  margin-top: 5%;
+  margin-left: 12%;
+  width: 40px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  float: left;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.numimg {
+  position: absolute;
+
+  object-fit: cover;
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.gitimgbox {
+  margin-top: 1%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  float: left;
+  position: relative;
+}
+
+.gitimg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -2px;
+  left: 1;
+  object-fit: cover;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card {
+  width: 360px;
+  height: 860px;
+  float: left;
+  margin-top: 10%;
+  margin-left: 5%;
+  background-color: white;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  border-radius: 2rem;
+  box-shadow: 0px 1rem 1.5rem rgba(black, 0.5);
+}
+
+.write {
+  width: 1060px;
+  height: 100%;
+  float: left;
+  margin-top: -60%;
+  margin-left: 500px;
+  background-color: white;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  border-radius: 2rem;
+  box-shadow: 0px 1rem 1.5rem rgba(black, 0.5);
+}
+
+.btn {
+  margin-top: 5%;
+  font-weight: bold;
+  background-color: rgb(0, 204, 255);
+  border-radius: 50%;
+  padding: 1rem;
+}

@@ -2,6 +2,10 @@
   padding: 0 2rem;
 }
 
+.homeTitle {
+  color: red;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -10,6 +14,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: lightgray; /**fix*/
 }
 
 .footer {
