@@ -16,6 +16,10 @@ export default function Navbar() {
         <Link href="/profile">
           <a>Profile</a>
         </Link>
+
+        <Link href="/coins">
+          <a>coins</a>
+        </Link>
       </div>
     </div>
   );
