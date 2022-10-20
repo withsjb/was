@@ -177,7 +177,7 @@
   width: 1060px;
   height: 100%;
   float: left;
-  margin-top: -920px;
+  margin-top: -50%;
   margin-left: 500px;
   background-color: white;
   align-items: center;
@@ -185,7 +185,6 @@
   display: flex;
   border-radius: 2rem;
   box-shadow: 0px 1rem 1.5rem rgba(black, 0.5);
-  float: left;
 }
 
 .btn {
