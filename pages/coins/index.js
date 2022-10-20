@@ -1,21 +1,21 @@
 import axios from "axios";
+import styles from "../../styles/Coin.module.css";
+import Coin from "../../components/Coin";
 
 export default function CoinList({ coinData }) {
-  console.log(coinData);
   const coins = coinData.coins;
   return (
-    <div>
+    <div className={styles.container}>
       <h1>Coin List </h1>
-      {coins.map((coin) => {
-        return (
-          // eslint-disable-next-line react/jsx-key
-          <div key={coin.id}>
-            <img src={coin.icon} width={100} height={100} />
-            <h3>{coin.name}</h3>
-            <p>{coin.price}</p>
-          </div>
-        );
-      })}
+      <div className={styles.coinContainer}>
+        {coins.map((coin) => {
+          return (
+            <div key={coin.id} className={styles.coinItem}>
+              <Coin coin={coin} />
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }

@@ -19,16 +19,23 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function frofile() {
+  const studentid = "91812505";
+  const major = "정보보안학과";
+  const grade = "3학년";
+  const name = "손진빈";
+  const email = "withsjb1@gmail.com";
+  const phonenum = "010-3476-0882";
+  const homepage = "https://github.com/withsjb/wapaap";
   return (
     <div className={styles.main}>
       <div className={styles.card}>
         <div className={styles.imgbox}>
           <img className="img" src="images/myfrofile.jpg"></img>
         </div>
-        <h1>91812505</h1>
-        <h1>정보보안학과</h1>
-        <h1>3학년</h1>
-        <h1>손진빈</h1>
+        <h1>{studentid}</h1>
+        <h1>{major}</h1>
+        <h1>{grade}</h1>
+        <h1>{name}</h1>
         <Link href="https://github.com/withsjb/wapaap">
           <div className={styles.gitimgbox}>
             <img className={styles.gitimg} src="images/gitimg.jpg"></img>
@@ -37,11 +44,11 @@ export default function frofile() {
         <div className={styles.gitimgbox}>
           <img className="img" src="images/call.jpg"></img>
         </div>
-        010-3476-0882
+        {phonenum}
         <div className={styles.gitimgbox}>
           <img className="img" src="images/mail.jpg"></img>
         </div>
-        withsjb1@gmail.com
+        {email}
         <Link href="/">
           <h1 className={styles.btn}> home으로 이동</h1>
         </Link>
